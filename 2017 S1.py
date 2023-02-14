@@ -1,9 +1,6 @@
 length = int(input())
-swiftRuns = input()
-semaphoresRuns = input()
-
-swiftRuns = swiftRuns.split()
-semaphoresRuns = semaphoresRuns.split()
+swiftRuns = input().split()
+semaphoresRuns = input().split()
 
 swiftsum = 0
 semaphoresum = 0
